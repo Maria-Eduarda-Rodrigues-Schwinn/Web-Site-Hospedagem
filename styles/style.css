@@ -1,0 +1,276 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --color-white: #fff;
+    --color-gray-100: #f1f1f1;
+    --color-gray-300: #f6f6f6;
+    --color-gray-500: #a89f9f;
+    --color-green-dark: #233032;
+    --color-blue: #2f86d6;
+    --color-blue-shadow: rgba(47,134,214,1);
+    --color-black: #000000;
+}
+
+.topo {
+    max-width: 1024px;
+    padding: 35px 0;
+
+    display: flex;
+
+    background-color: var(--color-white);
+    margin: 0 auto;
+}
+
+.topo img {
+    height: 100px;
+}
+
+.topo h1 {
+    font-size: 32px;
+    color: var(--color-black);
+}
+
+.topo p {
+    font-size: 16px;
+    color: var(--color-blue);
+
+    font-weight: 600;
+    width: 300px;
+}
+
+.topo .nome {
+    text-align: justify;
+    margin: 0 20px;
+}
+
+.topo a {
+    font-size: 18px;
+    color: var(--color-green-dark);
+
+    text-decoration: none;
+    margin: 0 20px;
+
+    font-weight: 600;
+}
+
+.topo a:hover {
+    color: var(--color-blue);
+}
+
+.navegacao {
+    display: flex;
+    align-items: center;
+
+    margin-left: 80px;
+}
+
+.banner {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 180px 0;
+}
+
+.banner p {
+    font-size: 18px;
+}
+
+.banner h2 {
+    font-size: 28px;
+
+    margin: 20px 0;
+}
+
+.texto-banner {
+    width: 470px;
+}
+
+.primeiro-anuncio,
+.segundo-anuncio {
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    gap: 300px;
+}
+
+.primeiro-anuncio {
+    background-color: var(--color-green-dark);
+    color: var(--color-white);
+}
+
+.primeiro-anuncio h2 {
+    font-size: 24px;
+}
+
+.primeiro-anuncio p {
+    font-size: 16px;
+}
+
+.primeiro-anuncio a,
+.segundo-anuncio a{
+    color: var(--color-white);
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+}
+
+.primeiro-anuncio a {
+    background-color: var(--color-blue);
+}
+
+.primeiro-anuncio a:hover {
+    background-color: #2a7ac4;
+}
+
+.informacoes {
+    text-align: center;
+
+    padding: 100px 0px;
+}
+
+.texto-informacoes {
+    text-align: center;
+}
+
+.texto-informacoes h2 {
+    font-size: 32px;
+    color: var(--color-black);
+}
+
+span {
+    color: var(--color-blue);
+}
+
+.secao-informacoes {
+    display: flex;
+    gap: 20px;
+    width: 1024px;
+
+    margin: 50px auto 0;
+}
+
+.informacoes img {
+    width: 33%;
+}
+
+.planos {
+    padding: 100px 0;
+
+    background-color: var(--color-gray-100);
+    text-align: center;
+}
+
+.planos img {
+    width: 100px;
+    margin-bottom: 20px;
+}
+
+table {
+    background-color: var(--color-gray-300);
+    box-shadow: 0 0 15px 15px var(--color-blue-shadow);
+
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.planos h2 {
+    font-size: 32px;
+    margin-bottom: 70px;
+}
+
+table h3 {
+    font-size: 18px;
+    margin-top: 30px;
+}
+
+table thead p {
+    color: var(--color-gray-500);
+    font-weight: 500;
+    width: 160px;
+    margin: 0 auto;
+}
+
+table th {
+    text-align: center;
+
+    padding: 20px 0;
+    background-color: var(--color-white);
+}
+
+table td {
+    padding: 20px;
+    font-size: 16px;
+}
+
+.background-white {
+    background-color: var(--color-white);
+}
+
+.segundo-anuncio {
+    background-color: var(--color-blue);
+    color: var(--color-white);
+}
+
+.segundo-anuncio a {
+    background-color: var(--color-green-dark);
+}
+
+.segundo-anuncio a:hover {
+    background-color: #1d2729;
+}
+
+.rodape {
+    text-align: center;
+}
+
+.rodape img {
+    width: 100px;
+}
+
+.rodape .caixa-logomarca p {
+    font-size: 16px;
+    color: var(--color-blue);
+
+    font-weight: 600;
+}
+
+.rodape .caixa-logomarca h1 {
+    text-align: justify;
+}
+
+.rodape .caixa-logomarca {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin: 60px 0 0;
+}
+
+.informacoes-contato {
+    font-weight: 500;
+    margin: 60px 0;
+}
+
+.informacoes-contato p {
+    margin: 20px 0;
+}
+
+.caixa-aluna {
+    background-color: var(--color-gray-300);
+    padding: 20px;
+    font-weight: 500;
+}
